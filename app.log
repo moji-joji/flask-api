@@ -1,0 +1,2278 @@
+DEBUG:h5py._conv:Creating converter from 3 to 5
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+DEBUG:h5py._conv:Creating converter from 3 to 5
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 764-409-571
+INFO:werkzeug: * Detected change in 'D:\\Dev\\FYP\\attentiveness_detection_vr\\flask api\\unit_test.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:h5py._conv:Creating converter from 3 to 5
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 764-409-571
+INFO:werkzeug: * Detected change in 'D:\\Dev\\FYP\\attentiveness_detection_vr\\flask api\\unit_test.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:h5py._conv:Creating converter from 3 to 5
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 764-409-571
+INFO:werkzeug: * Detected change in 'D:\\Dev\\FYP\\attentiveness_detection_vr\\flask api\\unit_test.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:h5py._conv:Creating converter from 3 to 5
+INFO:root:Prediction successful. Response: True Result: 0.99999315
+DEBUG:h5py._conv:Creating converter from 3 to 5
+INFO:root:Prediction successful. Response: True Result: 0.99999315
+DEBUG:h5py._conv:Creating converter from 3 to 5
+INFO:root:Prediction successful. Response: True Result: 0.99999315
+DEBUG:h5py._conv:Creating converter from 3 to 5
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+DEBUG:h5py._conv:Creating converter from 3 to 5
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 764-409-571
+ERROR:root:too many indices for array: array is 1-dimensional, but 2 were indexed
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:30:11] "POST /predict HTTP/1.1" 200 -
+ERROR:root:too many indices for array: array is 1-dimensional, but 2 were indexed
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:30:18] "POST /predict HTTP/1.1" 200 -
+ERROR:root:too many indices for array: array is 1-dimensional, but 2 were indexed
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:30:21] "POST /predict HTTP/1.1" 200 -
+ERROR:root:too many indices for array: array is 1-dimensional, but 2 were indexed
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:30:24] "POST /predict HTTP/1.1" 200 -
+ERROR:root:too many indices for array: array is 1-dimensional, but 2 were indexed
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:30:27] "POST /predict HTTP/1.1" 200 -
+ERROR:root:too many indices for array: array is 1-dimensional, but 2 were indexed
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:30:30] "POST /predict HTTP/1.1" 200 -
+ERROR:root:too many indices for array: array is 1-dimensional, but 2 were indexed
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:30:33] "POST /predict HTTP/1.1" 200 -
+ERROR:root:too many indices for array: array is 1-dimensional, but 2 were indexed
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:30:36] "POST /predict HTTP/1.1" 200 -
+ERROR:root:too many indices for array: array is 1-dimensional, but 2 were indexed
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:30:39] "POST /predict HTTP/1.1" 200 -
+ERROR:root:too many indices for array: array is 1-dimensional, but 2 were indexed
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:30:42] "POST /predict HTTP/1.1" 200 -
+ERROR:root:too many indices for array: array is 1-dimensional, but 2 were indexed
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:30:46] "POST /predict HTTP/1.1" 200 -
+ERROR:root:in user code:
+
+    File "C:\Users\mujtaba\AppData\Roaming\Python\Python311\site-packages\keras\src\engine\training.py", line 2416, in predict_function  *
+        return step_function(self, iterator)
+    File "C:\Users\mujtaba\AppData\Roaming\Python\Python311\site-packages\keras\src\engine\training.py", line 2401, in step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\mujtaba\AppData\Roaming\Python\Python311\site-packages\keras\src\engine\training.py", line 2389, in run_step  **
+        outputs = model.predict_step(data)
+    File "C:\Users\mujtaba\AppData\Roaming\Python\Python311\site-packages\keras\src\engine\training.py", line 2357, in predict_step
+        return self(x, training=False)
+    File "C:\Users\mujtaba\AppData\Roaming\Python\Python311\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+        raise e.with_traceback(filtered_tb) from None
+    File "C:\Users\mujtaba\AppData\Roaming\Python\Python311\site-packages\keras\src\engine\input_spec.py", line 298, in assert_input_compatibility
+        raise ValueError(
+
+    ValueError: Input 0 of layer "model_2" is incompatible with the layer: expected shape=(None, 10, 3), found shape=(None, 1, 3)
+
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:33:46] "POST /predict HTTP/1.1" 200 -
+ERROR:root:in user code:
+
+    File "C:\Users\mujtaba\AppData\Roaming\Python\Python311\site-packages\keras\src\engine\training.py", line 2416, in predict_function  *
+        return step_function(self, iterator)
+    File "C:\Users\mujtaba\AppData\Roaming\Python\Python311\site-packages\keras\src\engine\training.py", line 2401, in step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\mujtaba\AppData\Roaming\Python\Python311\site-packages\keras\src\engine\training.py", line 2389, in run_step  **
+        outputs = model.predict_step(data)
+    File "C:\Users\mujtaba\AppData\Roaming\Python\Python311\site-packages\keras\src\engine\training.py", line 2357, in predict_step
+        return self(x, training=False)
+    File "C:\Users\mujtaba\AppData\Roaming\Python\Python311\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+        raise e.with_traceback(filtered_tb) from None
+    File "C:\Users\mujtaba\AppData\Roaming\Python\Python311\site-packages\keras\src\engine\input_spec.py", line 298, in assert_input_compatibility
+        raise ValueError(
+
+    ValueError: Input 0 of layer "model_2" is incompatible with the layer: expected shape=(None, 10, 3), found shape=(None, 3, 3)
+
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:33:52] "POST /predict HTTP/1.1" 200 -
+ERROR:root:in user code:
+
+    File "C:\Users\mujtaba\AppData\Roaming\Python\Python311\site-packages\keras\src\engine\training.py", line 2416, in predict_function  *
+        return step_function(self, iterator)
+    File "C:\Users\mujtaba\AppData\Roaming\Python\Python311\site-packages\keras\src\engine\training.py", line 2401, in step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\mujtaba\AppData\Roaming\Python\Python311\site-packages\keras\src\engine\training.py", line 2389, in run_step  **
+        outputs = model.predict_step(data)
+    File "C:\Users\mujtaba\AppData\Roaming\Python\Python311\site-packages\keras\src\engine\training.py", line 2357, in predict_step
+        return self(x, training=False)
+    File "C:\Users\mujtaba\AppData\Roaming\Python\Python311\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+        raise e.with_traceback(filtered_tb) from None
+    File "C:\Users\mujtaba\AppData\Roaming\Python\Python311\site-packages\keras\src\engine\input_spec.py", line 298, in assert_input_compatibility
+        raise ValueError(
+
+    ValueError: Input 0 of layer "model_2" is incompatible with the layer: expected shape=(None, 10, 3), found shape=(None, 7, 3)
+
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:33:55] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.7188261
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:34:00] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.72458506
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:34:03] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.7250375
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:34:06] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.7253467
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:34:09] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.7253671
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:34:12] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.7253283
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:34:15] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.72529477
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:34:18] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.7243153
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:34:21] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.72282726
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:34:25] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.7232924
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:34:28] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.7229108
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:34:31] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.7241386
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:34:34] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.7241233
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:34:37] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.7263414
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:34:40] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.7253896
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:34:43] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.7240709
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:34:47] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.740086
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:42:36] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.7296407
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:42:41] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.71658623
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:42:44] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.7017024
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:42:48] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.7246231
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:42:51] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.7248333
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:42:54] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.7253357
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:42:57] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.7266028
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:43:00] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.7282075
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:43:03] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.7291492
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:43:06] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.729187
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:43:10] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.7285637
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:43:13] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.7264534
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:43:16] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.7252157
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:43:19] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.72528684
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:43:22] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.72476834
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:43:25] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.7218082
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:43:28] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.7198161
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:43:31] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.71183187
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:43:35] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.7113786
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:43:38] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.7100727
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:43:41] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.7040446
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:43:44] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.7054207
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:43:47] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.72204643
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:43:50] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.72471267
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:43:53] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.72407144
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:43:56] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.7238655
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:43:59] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.72387487
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:44:03] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.7237176
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:44:06] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.72365075
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:44:09] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.72366494
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:44:12] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.72367483
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:44:15] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.7236667
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:44:18] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.72366303
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:44:21] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.72364837
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:44:24] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.7236639
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:44:27] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.72372764
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:44:31] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.72431946
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:44:34] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.72663915
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:44:37] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.72716993
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:44:40] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.72615004
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:44:43] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.7256099
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:44:46] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.7252285
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:44:49] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.72498584
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:44:52] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.72486496
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:44:55] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.7242646
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:44:59] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.7237669
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:45:02] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.7236505
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:45:06] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.7234026
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:45:14] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.72313905
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:45:22] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Dev\\FYP\\attentiveness_detection_vr\\flask api\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:h5py._conv:Creating converter from 3 to 5
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 764-409-571
+INFO:root:Prediction successful. Response: False Result: 0.7234604
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:45:31] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Dev\\FYP\\attentiveness_detection_vr\\flask api\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:h5py._conv:Creating converter from 3 to 5
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 764-409-571
+INFO:root:Prediction successful. Response: False Result: 0.67037296
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:45:39] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.67037296
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:45:47] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.67037296
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:45:56] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.67078555
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:46:02] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.66800815
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:46:05] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.6633938
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:46:09] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.66649157
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:46:16] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.6657018
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:46:22] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.6319544
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:46:25] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.58020055
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:46:28] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.49726176
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:46:31] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.49740484
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:46:37] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5921815
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:46:40] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.7808155
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:46:43] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.85706776
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:46:46] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.857785
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:46:49] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.8676524
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:46:53] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.82058656
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:46:56] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.7814173
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:46:59] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.75465715
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:47:02] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.49726605
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:47:05] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.49716288
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:47:11] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.49712494
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:47:19] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Dev\\FYP\\attentiveness_detection_vr\\flask api\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:h5py._conv:Creating converter from 3 to 5
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 764-409-571
+INFO:root:Prediction successful. Response: False Result: 1.575016e-05
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:47:30] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 2.0179447e-08
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:47:34] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.87531126
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:47:42] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.95841527
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:47:47] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.99999756
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:47:51] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.99999714
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:47:57] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.99999565
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:48:00] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.99975264
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:48:04] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.99998826
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:48:07] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.95597607
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:48:10] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.9626697
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:48:16] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999971
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:48:19] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.9967719
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:48:22] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.9759208
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:48:25] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.00076553226
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:48:29] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.003935947
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:48:32] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999961
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:48:35] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.99999446
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:48:38] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.9934812
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:48:41] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.99792117
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:48:44] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.99981606
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:48:47] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.9998159
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:48:50] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999872
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:48:57] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.95849
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:49:05] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Dev\\FYP\\attentiveness_detection_vr\\flask api\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:h5py._conv:Creating converter from 3 to 5
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 764-409-571
+INFO:root:Prediction successful. Response: False Result: 0.95846266
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:49:20] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.999998
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:49:23] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.99999785
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:49:27] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.99999744
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:49:30] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.99999726
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:49:33] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.94478834
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:49:36] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.78172845
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:49:39] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999433
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:50:36] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999935
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:50:41] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999969
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:50:44] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.99999714
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:50:47] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.99846506
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:50:50] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.99999684
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:50:53] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.999997
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:50:57] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.9616404
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:51:00] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.9532477
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:51:03] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999964
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:51:06] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.99999446
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:51:09] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999958
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:51:12] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.99993384
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:51:15] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9998146
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:51:18] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.99981934
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:51:21] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.9997976
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:51:25] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999931
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:51:29] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999433
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:55:38] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.9933701
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:55:47] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.9933701
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:55:55] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.9933701
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:56:03] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.9933701
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:56:11] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.9933701
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:56:19] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.9933701
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 01:56:28] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999433
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 02:01:13] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.9933701
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 02:01:17] "POST /predict HTTP/1.1" 200 -
+DEBUG:h5py._conv:Creating converter from 3 to 5
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+DEBUG:h5py._conv:Creating converter from 3 to 5
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 655-716-920
+INFO:root:Prediction successful. Response: False Result: 0.99270827
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:15:40] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999978
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:15:43] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999978
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:15:46] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999978
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:15:49] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.9995963
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:15:53] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9998215
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:15:56] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 1.6456433e-10
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:15:59] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.033624947
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:16:02] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.99999696
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:16:05] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9998194
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:16:08] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9998196
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:16:13] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.999818
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:16:16] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.99981934
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:16:19] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.99981934
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:16:22] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999978
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:16:25] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.99983937
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:16:29] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.9995971
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:16:32] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.9667159
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:16:35] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999978
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:16:38] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999433
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:18:07] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.99999803
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:18:12] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.99956274
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:18:15] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.99982315
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:18:18] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.99980783
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:18:21] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.99999475
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:18:25] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999433
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:20:22] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999978
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:20:28] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999917
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:20:31] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999978
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:20:34] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999974
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:20:37] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999978
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:20:40] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.9994668
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:20:43] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.9996733
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:20:47] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.99999696
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:20:50] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999948
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:20:53] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.99999714
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:20:56] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.99982256
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:20:59] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9998203
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:21:02] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.99999785
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:21:05] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9998206
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:21:08] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.99982184
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:21:12] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.999821
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:21:15] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9998214
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:21:18] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.99977297
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:21:21] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9998238
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:21:24] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.99982435
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:21:27] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.99982446
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:21:31] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.999824
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:21:34] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999978
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:21:37] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999972
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:21:40] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9998182
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:21:43] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 1.4487891e-10
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:21:46] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 1.7523664e-10
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:21:49] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.8475966
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:21:53] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999978
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:21:56] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999978
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:21:59] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9998244
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:22:02] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9998236
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:22:05] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999978
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:22:08] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 1.344578e-10
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:22:11] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9998262
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:22:15] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9998265
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:22:18] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.99999714
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:22:21] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999971
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:22:24] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.99999714
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:22:27] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999972
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:22:30] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.999827
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:22:34] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9998259
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:22:37] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9998257
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:22:40] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9998268
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:22:43] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.99982655
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:22:46] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9998264
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:22:49] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.99981385
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:22:52] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9998249
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:22:55] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.99982536
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:22:59] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999978
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:23:02] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999976
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:23:05] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.99980795
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:23:08] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999978
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:23:11] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.9998067
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:23:14] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999978
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:23:17] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9998217
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:23:21] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999978
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:23:24] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.9998055
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:23:27] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999932
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:23:30] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999978
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:23:33] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999978
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:23:36] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.9665245
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:23:39] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.99998933
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:23:42] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999978
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:23:46] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999978
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:23:49] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999978
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:23:52] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.99999803
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:23:55] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.999998
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:23:58] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.99999803
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:24:01] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.99999756
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:24:04] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999978
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:24:08] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.99999785
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:24:11] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999959
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:24:14] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.99982524
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:24:17] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9998241
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:24:20] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.99982387
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:24:23] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999867
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:24:26] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999971
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:24:30] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999978
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:24:33] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.999823
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:24:36] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.99982333
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:24:39] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999914
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:24:42] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.9555986
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:24:45] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999972
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:24:48] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.99999714
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:24:52] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.99982584
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:24:55] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.999826
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:24:58] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 1.1461653e-10
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:25:01] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 1.5649348e-10
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:25:04] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9998263
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:25:07] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9998263
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:25:10] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9998256
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:25:13] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9998269
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:25:16] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999978
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:25:20] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999978
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:25:23] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.999803
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:25:26] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999978
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:25:29] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.99982363
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:25:32] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9998241
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:25:35] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999978
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:25:38] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.99999714
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:25:42] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999971
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:25:45] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999978
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:25:48] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999978
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:25:51] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999978
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:25:54] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999976
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:25:57] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999978
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:26:00] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999433
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:28:16] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.9933701
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:28:23] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.9933701
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:28:26] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.9933701
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:28:29] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.9933701
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:28:32] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.9933701
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:28:35] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.9933701
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:28:39] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.9933701
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:28:42] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.9933701
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:28:45] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.9933701
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:28:48] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.9933701
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:28:52] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.9933701
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:28:55] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.9933701
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:28:58] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.9933701
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:29:01] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999433
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:29:46] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.99649847
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:29:51] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999978
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:29:54] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.9611303
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:29:58] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9998123
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:30:01] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.95846456
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:30:04] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.99999535
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:30:07] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.99999565
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:30:10] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 2.1074291e-10
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:30:13] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.99981415
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:30:16] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999971
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:30:20] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.95968187
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:30:23] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 7.549546e-09
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:30:26] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999971
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:30:29] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9998109
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:30:32] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.999798
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:30:35] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.9998034
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:30:38] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.99980575
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:30:42] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.99980986
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:30:45] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9998122
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:30:48] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9998192
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:30:51] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9998157
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:30:54] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.9998089
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:30:57] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.95848995
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:31:01] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.99981177
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:31:04] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999978
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:31:07] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999978
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:31:10] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.99697655
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:31:13] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.99981576
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:31:16] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 1.445841e-10
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:31:19] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9998169
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:31:22] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.999815
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:31:26] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.99981093
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:31:29] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9998132
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:31:32] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.96012235
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:31:35] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.9917835
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:31:38] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.9903604
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:31:41] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.98473966
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:31:44] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.9521642
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:31:48] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.99998933
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:31:51] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999972
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:31:54] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.9995877
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:31:57] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9998189
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:32:00] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999978
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:32:03] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.999818
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:32:06] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999958
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:32:10] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.99982584
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:32:13] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.99982554
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:32:18] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 1.4615008e-10
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:32:21] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.99982274
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:32:25] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.99982315
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:32:28] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9998235
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:32:31] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9998231
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:32:34] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.96008587
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:32:38] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9998171
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:32:41] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.9999969
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:32:44] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Dev\\FYP\\attentiveness_detection_vr\\flask api\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:h5py._conv:Creating converter from 3 to 5
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 655-716-920
+INFO:werkzeug: * Detected change in 'D:\\Dev\\FYP\\attentiveness_detection_vr\\flask api\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:h5py._conv:Creating converter from 3 to 5
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+DEBUG:h5py._conv:Creating converter from 3 to 5
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 655-716-920
+INFO:root:Prediction successful. Response: False Result: 0.8231012
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:38:48] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.6733747
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:38:52] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.677821
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:38:55] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.6666029
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:38:58] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.82905483
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:39:01] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.66519856
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:39:04] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.81679773
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:39:07] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.6109804
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:39:10] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.7295825
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:39:14] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.7832862
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:39:17] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.81766653
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:39:20] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.8635385
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:39:23] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.8164122
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:39:26] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.80174935
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:39:29] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.6691157
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:39:32] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5415626
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:39:35] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.49726185
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:39:39] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.49726182
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:39:42] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.8790305
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:39:45] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.8787065
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:39:48] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5710503
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:39:51] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.81414884
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:39:54] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.82771724
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:39:57] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.8261526
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:40:00] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Dev\\FYP\\attentiveness_detection_vr\\flask api\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:h5py._conv:Creating converter from 3 to 5
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 655-716-920
+INFO:root:Prediction successful. Response: False Result: 0.79332286
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:40:15] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.8021295
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:40:18] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.76892275
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:40:21] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.62112355
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:40:25] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5940758
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:40:28] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.8227752
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:40:31] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.8554383
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:40:34] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.81833225
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:40:37] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.8157908
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:40:40] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.7973525
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:40:43] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.760297
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:40:46] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5940105
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:40:50] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5937357
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:40:53] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5934172
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:40:56] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.6571662
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:40:59] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.6610052
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:41:02] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.6693817
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:41:05] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.9098424
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:41:08] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.6534113
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:41:11] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.80963105
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:41:15] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.8878311
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:41:18] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.59474605
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:41:21] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.8782552
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:41:24] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.8786787
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:41:27] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.7669305
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:41:30] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.83811325
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:41:33] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.96386945
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:41:36] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.6609411
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:41:40] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.667903
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:41:43] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.87537426
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:41:46] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.6774828
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:41:49] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5937878
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:41:52] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.7846997
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 12:41:57] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.6590046
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 13:13:49] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.8131805
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 13:13:53] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.7475416
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 13:13:57] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.75873095
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 13:14:00] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.60459197
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 13:14:03] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.6116762
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 13:14:06] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.63846844
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 13:14:09] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5920422
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 13:14:12] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.6011647
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 13:14:15] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5931162
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 13:14:19] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.6118138
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 13:14:22] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5962593
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 13:14:25] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5933009
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 13:14:28] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.7717996
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 13:14:31] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.6555114
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 13:14:34] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.6028564
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 13:14:37] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.76496875
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 13:14:40] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5968371
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 13:14:44] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.6691274
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 13:14:47] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.6076767
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 13:14:50] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.68405956
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 13:14:53] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.59964234
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 13:14:56] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.6103857
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 13:14:59] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.61059994
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 13:15:02] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.62038976
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 13:15:05] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.87705266
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 13:15:09] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.7528894
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 13:15:12] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Dev\\FYP\\attentiveness_detection_vr\\flask api\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:h5py._conv:Creating converter from 3 to 5
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 655-716-920
+INFO:werkzeug: * Detected change in 'D:\\Dev\\FYP\\attentiveness_detection_vr\\flask api\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:h5py._conv:Creating converter from 3 to 5
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 655-716-920
+DEBUG:h5py._conv:Creating converter from 3 to 5
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+DEBUG:h5py._conv:Creating converter from 3 to 5
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 655-716-920
+ERROR:root:in user code:
+
+    File "C:\Users\mujtaba\AppData\Roaming\Python\Python311\site-packages\keras\src\engine\training.py", line 2416, in predict_function  *
+        return step_function(self, iterator)
+    File "C:\Users\mujtaba\AppData\Roaming\Python\Python311\site-packages\keras\src\engine\training.py", line 2401, in step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\mujtaba\AppData\Roaming\Python\Python311\site-packages\keras\src\engine\training.py", line 2389, in run_step  **
+        outputs = model.predict_step(data)
+    File "C:\Users\mujtaba\AppData\Roaming\Python\Python311\site-packages\keras\src\engine\training.py", line 2357, in predict_step
+        return self(x, training=False)
+    File "C:\Users\mujtaba\AppData\Roaming\Python\Python311\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+        raise e.with_traceback(filtered_tb) from None
+    File "C:\Users\mujtaba\AppData\Roaming\Python\Python311\site-packages\keras\src\engine\input_spec.py", line 298, in assert_input_compatibility
+        raise ValueError(
+
+    ValueError: Input 0 of layer "model_1" is incompatible with the layer: expected shape=(None, 10, 3), found shape=(None, 1, 3)
+
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 13:25:23] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.24588819
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 13:25:31] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5501662
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 13:25:34] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.69488174
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 13:25:37] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5451186
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 13:25:40] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.56126237
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 13:25:43] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.18738163
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 13:25:46] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.29190853
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 13:25:50] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.49071673
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 13:25:53] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5632369
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 13:25:56] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5314655
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 13:25:59] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5223326
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 13:26:02] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.2957286
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 13:26:05] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.6340549
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 13:26:08] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.59022856
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 13:26:13] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.6392195
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 13:26:18] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.6063184
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 13:26:21] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.54104954
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 13:26:24] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.46408057
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 13:26:28] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.54828876
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 13:26:31] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.7096637
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 13:26:34] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5583228
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 13:26:37] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5823594
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 13:26:41] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.46086958
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 13:26:44] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5399193
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 13:26:47] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.637784
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 13:26:51] "POST /predict HTTP/1.1" 200 -
+DEBUG:h5py._conv:Creating converter from 3 to 5
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+DEBUG:h5py._conv:Creating converter from 3 to 5
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 655-716-920
+ERROR:root:in user code:
+
+    File "C:\Users\mujtaba\AppData\Roaming\Python\Python311\site-packages\keras\src\engine\training.py", line 2416, in predict_function  *
+        return step_function(self, iterator)
+    File "C:\Users\mujtaba\AppData\Roaming\Python\Python311\site-packages\keras\src\engine\training.py", line 2401, in step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\mujtaba\AppData\Roaming\Python\Python311\site-packages\keras\src\engine\training.py", line 2389, in run_step  **
+        outputs = model.predict_step(data)
+    File "C:\Users\mujtaba\AppData\Roaming\Python\Python311\site-packages\keras\src\engine\training.py", line 2357, in predict_step
+        return self(x, training=False)
+    File "C:\Users\mujtaba\AppData\Roaming\Python\Python311\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+        raise e.with_traceback(filtered_tb) from None
+    File "C:\Users\mujtaba\AppData\Roaming\Python\Python311\site-packages\keras\src\engine\input_spec.py", line 298, in assert_input_compatibility
+        raise ValueError(
+
+    ValueError: Input 0 of layer "model_1" is incompatible with the layer: expected shape=(None, 10, 3), found shape=(None, 1, 3)
+
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:03:36] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.35236225
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:03:45] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5144159
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:03:48] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.7494989
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:03:52] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.73452604
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:03:55] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.7130772
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:03:58] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.49753743
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:04:02] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.75081575
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:04:05] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.75815165
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:04:09] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.7508192
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:04:13] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.6930991
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:04:21] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.6930991
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:04:29] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.6930991
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:04:37] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5251715
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:06:32] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.3555691
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:06:36] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.69053775
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:06:40] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.6549974
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:06:44] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.75809914
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:06:47] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.76107514
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:06:50] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.74276495
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:06:54] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.71517175
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:07:00] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5211995
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:07:05] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.56125623
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:07:08] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5641371
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:07:11] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.58471376
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:07:15] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5744966
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:07:18] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5625005
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:07:21] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.55907667
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:07:24] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.63177633
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:07:27] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.4077675
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:07:30] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.3666578
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:07:33] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.3117467
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:07:37] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5740786
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:07:40] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5564694
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:07:43] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.53453714
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:07:46] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5065317
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:07:49] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.385576
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:07:52] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.48395818
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:07:55] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.58147323
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:08:01] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.58147323
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:08:09] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.58147323
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:08:17] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5251715
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:09:03] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.4515213
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:09:09] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.38119408
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:09:12] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.35706893
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:09:15] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5773098
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:09:18] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.4077864
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:09:21] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.3886582
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:09:25] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5618388
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:09:28] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5571039
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:09:31] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5608583
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:09:34] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.559526
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:09:37] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.50032514
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:09:40] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5135144
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:09:43] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.48535153
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:09:47] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.48929855
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:09:50] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.29106912
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:09:53] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.39288276
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:09:56] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.45509523
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:09:59] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.47139978
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:10:02] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.4876161
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:10:05] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.46725038
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:10:08] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.54893386
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:10:12] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.53148323
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:10:15] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5853116
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:10:18] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.545143
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:10:21] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.2706356
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:10:24] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.34310815
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:10:27] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5095633
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:10:30] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.46348727
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:10:34] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5655654
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:10:37] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.6368059
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:10:40] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.63302004
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:10:43] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.69500256
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:10:46] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Dev\\FYP\\attentiveness_detection_vr\\flask api\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:h5py._conv:Creating converter from 3 to 5
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 655-716-920
+INFO:root:Prediction successful. Response: True Result: 0.6056486
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:11:06] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.7285283
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:11:09] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.73339134
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:11:13] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.6306498
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:11:16] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.3375257
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:11:19] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.4725864
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:11:22] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.625078
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:11:25] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.58764994
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:11:28] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.56651306
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:11:31] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.4880476
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:11:35] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.54297
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:11:38] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5425091
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:11:41] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.536831
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:11:44] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5383112
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:11:47] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5456566
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:11:50] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.51898664
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:11:53] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.6437918
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:11:56] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.639549
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:12:00] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.68830425
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:12:03] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.7234444
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:12:06] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.7130518
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:12:09] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.62652445
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:12:12] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.67008775
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:12:15] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5392129
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:12:18] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.19402643
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:12:21] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.43492654
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:12:25] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.588013
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:12:28] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.15394434
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:12:31] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.72143996
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:12:34] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.51583266
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:12:37] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.57855713
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:12:40] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5073242
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:12:43] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.49152282
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:12:47] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.40575665
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:12:50] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.41855186
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:12:53] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.43701687
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:12:56] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.33285245
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:12:59] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.7189942
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:13:02] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.7573337
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:13:05] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.7327544
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:13:10] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.6919972
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:13:14] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.7536721
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:13:17] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.7401077
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:13:20] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Dev\\FYP\\attentiveness_detection_vr\\flask api\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:h5py._conv:Creating converter from 3 to 5
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 655-716-920
+INFO:root:Prediction successful. Response: True Result: 0.7621234
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:13:37] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.6532657
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:13:40] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.67155993
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:13:43] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.73065585
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:13:46] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Dev\\FYP\\attentiveness_detection_vr\\flask api\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:h5py._conv:Creating converter from 3 to 5
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 655-716-920
+INFO:werkzeug: * Detected change in 'D:\\Dev\\FYP\\attentiveness_detection_vr\\flask api\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 655-716-920
+INFO:werkzeug: * Detected change in 'D:\\Dev\\FYP\\attentiveness_detection_vr\\flask api\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 655-716-920
+INFO:werkzeug: * Detected change in 'D:\\Dev\\FYP\\attentiveness_detection_vr\\flask api\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 655-716-920
+INFO:werkzeug: * Detected change in 'D:\\Dev\\FYP\\attentiveness_detection_vr\\flask api\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 655-716-920
+DEBUG:h5py._conv:Creating converter from 3 to 5
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+DEBUG:h5py._conv:Creating converter from 3 to 5
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 655-716-920
+ERROR:root:in user code:
+
+    File "C:\Users\mujtaba\AppData\Roaming\Python\Python311\site-packages\keras\src\engine\training.py", line 2416, in predict_function  *
+        return step_function(self, iterator)
+    File "C:\Users\mujtaba\AppData\Roaming\Python\Python311\site-packages\keras\src\engine\training.py", line 2401, in step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\mujtaba\AppData\Roaming\Python\Python311\site-packages\keras\src\engine\training.py", line 2389, in run_step  **
+        outputs = model.predict_step(data)
+    File "C:\Users\mujtaba\AppData\Roaming\Python\Python311\site-packages\keras\src\engine\training.py", line 2357, in predict_step
+        return self(x, training=False)
+    File "C:\Users\mujtaba\AppData\Roaming\Python\Python311\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+        raise e.with_traceback(filtered_tb) from None
+    File "C:\Users\mujtaba\AppData\Roaming\Python\Python311\site-packages\keras\src\engine\input_spec.py", line 298, in assert_input_compatibility
+        raise ValueError(
+
+    ValueError: Input 0 of layer "model_1" is incompatible with the layer: expected shape=(None, 10, 3), found shape=(None, 1, 3)
+
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:24:57] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.586088
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:25:04] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5414927
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:25:07] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.52615994
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:25:11] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.586041
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:25:14] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.56249976
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:25:17] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.5691325
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:25:20] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.5707305
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:25:23] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.566281
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:25:26] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5412281
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:25:29] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.7915854
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:25:33] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.7463579
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:25:36] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.6989718
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:25:39] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5171385
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:25:42] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.5507436
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:25:45] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.744104
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:25:50] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5350292
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:25:53] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.4457354
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:25:57] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.6662687
+ERROR:root:Object of type float32 is not JSON serializable
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:26:02] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Dev\\FYP\\attentiveness_detection_vr\\flask api\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:h5py._conv:Creating converter from 3 to 5
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+DEBUG:h5py._conv:Creating converter from 3 to 5
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 655-716-920
+INFO:root:Prediction successful. Response: True Result: 0.75935674
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:29:04] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.52780956
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:29:07] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.5521235
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:29:10] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5481851
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:29:13] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.60657203
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:29:17] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.5634933
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:29:20] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.5549177
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:29:23] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.537467
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:29:26] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5440355
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:29:29] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.53027505
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:29:33] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.31142202
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:29:36] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.3794612
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:29:39] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.43977436
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:29:42] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.42618072
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:29:45] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.6377568
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:29:48] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.66738063
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:29:51] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.67150795
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:29:54] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.32717717
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:29:58] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.43570504
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:30:01] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.42278004
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:30:04] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.73287225
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:30:07] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.73155284
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:30:10] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.723401
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:30:13] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.72375476
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:30:16] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.23767044
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:30:19] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.24953148
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:30:23] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.6516174
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:30:26] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.4271494
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:30:29] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.6824312
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:30:32] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.48866844
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:30:35] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.62122124
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:30:38] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.55503684
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:30:41] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.56472945
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:30:44] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.560256
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:30:48] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.5762002
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:30:51] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.5770885
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:30:54] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.1828129
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:30:57] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.21782032
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:31:00] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.6246612
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:31:03] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.46723536
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:31:06] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.26386833
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:31:12] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.22312354
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:31:15] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.6698722
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:31:18] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.5796412
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:31:21] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.69104815
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:31:24] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.6475508
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:31:28] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.6505386
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:31:33] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.28777742
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:31:36] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.29290432
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:31:39] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.6562716
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:31:42] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.5952668
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:31:45] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5251715
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:55:14] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5153218
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:55:19] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.73268956
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:55:22] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.71623904
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:55:26] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.72603387
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:55:29] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.6265401
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:55:33] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.6455314
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:55:42] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.5951914
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:55:47] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.3767304
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 14:55:51] "POST /predict HTTP/1.1" 200 -
+DEBUG:h5py._conv:Creating converter from 3 to 5
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+DEBUG:h5py._conv:Creating converter from 3 to 5
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 655-716-920
+INFO:root:Prediction successful. Response: False Result: 0.20896691
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:39:25] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.57405657
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:39:28] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.66264385
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:39:31] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.63993883
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:39:35] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5251715
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:47:00] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.59299827
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:47:05] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.4571889
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:47:08] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.482991
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:47:11] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.58193487
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:47:14] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.43275723
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:47:20] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.54505754
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:47:23] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.6128307
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:47:26] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.49196613
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:47:29] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5088855
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:47:33] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.57834226
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:47:36] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.5668867
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:47:39] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.57853174
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:47:42] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.5532863
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:47:45] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.565367
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:47:48] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.558808
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:47:51] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.54500437
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:47:54] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.5696739
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:47:57] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.60836667
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:48:00] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.5551177
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:48:04] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.4948073
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:48:07] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.54502606
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:48:10] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.7203778
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:48:13] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.5650686
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:48:16] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.7462134
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:48:19] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.50980407
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:48:27] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.50980407
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:48:34] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.50980407
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:48:42] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.50980407
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:48:50] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.50980407
+INFO:werkzeug:127.0.0.1 - - [11/Mar/2024 15:48:58] "POST /predict HTTP/1.1" 200 -
+DEBUG:h5py._conv:Creating converter from 3 to 5
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+DEBUG:h5py._conv:Creating converter from 3 to 5
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 655-716-920
+ERROR:root:in user code:
+
+    File "C:\Users\mujtaba\AppData\Roaming\Python\Python311\site-packages\keras\src\engine\training.py", line 2416, in predict_function  *
+        return step_function(self, iterator)
+    File "C:\Users\mujtaba\AppData\Roaming\Python\Python311\site-packages\keras\src\engine\training.py", line 2401, in step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\mujtaba\AppData\Roaming\Python\Python311\site-packages\keras\src\engine\training.py", line 2389, in run_step  **
+        outputs = model.predict_step(data)
+    File "C:\Users\mujtaba\AppData\Roaming\Python\Python311\site-packages\keras\src\engine\training.py", line 2357, in predict_step
+        return self(x, training=False)
+    File "C:\Users\mujtaba\AppData\Roaming\Python\Python311\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+        raise e.with_traceback(filtered_tb) from None
+    File "C:\Users\mujtaba\AppData\Roaming\Python\Python311\site-packages\keras\src\engine\input_spec.py", line 298, in assert_input_compatibility
+        raise ValueError(
+
+    ValueError: Input 0 of layer "model_1" is incompatible with the layer: expected shape=(None, 10, 3), found shape=(None, 1, 3)
+
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:10:28] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.584593
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:10:35] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.5965623
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:10:41] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.43934494
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:10:46] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.32409272
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:10:51] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.5678376
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:10:57] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.60046685
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:11:02] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.59200895
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:11:08] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.2399432
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:11:13] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.60431063
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:11:18] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.3523368
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:11:24] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.59289545
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:11:29] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.42827982
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:11:35] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.17486711
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:11:40] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.64155066
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:11:46] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.70612746
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:11:51] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.44389424
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:11:56] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.59243673
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:12:02] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.70437884
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:12:08] "POST /predict HTTP/1.1" 200 -
+DEBUG:h5py._conv:Creating converter from 3 to 5
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+DEBUG:h5py._conv:Creating converter from 3 to 5
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 655-716-920
+ERROR:root:in user code:
+
+    File "C:\Users\mujtaba\AppData\Roaming\Python\Python311\site-packages\keras\src\engine\training.py", line 2416, in predict_function  *
+        return step_function(self, iterator)
+    File "C:\Users\mujtaba\AppData\Roaming\Python\Python311\site-packages\keras\src\engine\training.py", line 2401, in step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\mujtaba\AppData\Roaming\Python\Python311\site-packages\keras\src\engine\training.py", line 2389, in run_step  **
+        outputs = model.predict_step(data)
+    File "C:\Users\mujtaba\AppData\Roaming\Python\Python311\site-packages\keras\src\engine\training.py", line 2357, in predict_step
+        return self(x, training=False)
+    File "C:\Users\mujtaba\AppData\Roaming\Python\Python311\site-packages\keras\src\utils\traceback_utils.py", line 70, in error_handler
+        raise e.with_traceback(filtered_tb) from None
+    File "C:\Users\mujtaba\AppData\Roaming\Python\Python311\site-packages\keras\src\engine\input_spec.py", line 298, in assert_input_compatibility
+        raise ValueError(
+
+    ValueError: Input 0 of layer "model_1" is incompatible with the layer: expected shape=(None, 10, 3), found shape=(None, 1, 3)
+
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:13:54] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5287119
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:14:00] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.5608743
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:14:03] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.5675745
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:14:06] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.5988437
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:14:09] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.5698724
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:14:13] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.31914797
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:14:16] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.42678925
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:14:19] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.54564315
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:14:22] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.5821311
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:14:25] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.22727151
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:14:28] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.53195983
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:14:31] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.58129466
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:14:34] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.49388278
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:14:37] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.61532426
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:14:41] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.4678665
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:14:44] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5342945
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:14:47] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.6919463
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:14:50] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.70443946
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:14:53] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.71998036
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:14:56] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.572702
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:14:59] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.2126128
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:15:02] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.49248546
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:15:06] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.5627736
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:15:09] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.25298914
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:15:12] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.46449164
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:15:15] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.56195456
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:15:18] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.5896976
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:15:21] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.5831849
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:15:24] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.5887904
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:15:27] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.6130316
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:15:31] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.6214285
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:15:34] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.7039117
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:15:37] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.65447956
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:15:40] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.45697382
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:15:44] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.28548628
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:15:48] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.2710489
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:15:51] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.41377744
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:15:54] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.57963973
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:15:58] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.72948277
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:16:01] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5251715
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:17:39] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.3555691
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:17:43] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.3555691
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:17:46] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5251715
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:23:34] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.29968128
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:23:39] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.59767175
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:23:42] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.64737856
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:23:45] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.57317746
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:23:48] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.65388143
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:23:51] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.57426596
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:23:55] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.57260305
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:23:58] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.48781765
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:24:01] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.6105126
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:24:04] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5495505
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:24:07] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.5841892
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:24:10] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5100787
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:24:13] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.69813395
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:24:16] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.78300565
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:24:19] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.72054
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:24:23] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.5899541
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:24:26] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.68410593
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:24:29] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.39684576
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:24:32] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.56675303
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:24:36] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.58948284
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:24:39] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.4782604
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:24:42] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5251715
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:24:52] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.3590058
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:24:57] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.595571
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:25:00] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.63646734
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:25:03] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.31222713
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:25:06] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.33108822
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:25:09] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.5251715
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:25:21] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.429774
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:25:26] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.59603447
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:25:29] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.45453468
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:25:32] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.56953496
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:25:35] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.24735335
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:25:38] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.4992129
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:25:41] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.72078925
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:25:44] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.6641544
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:25:47] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.6344901
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:25:51] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.3566942
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:25:54] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.5993622
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:25:57] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.63975865
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:26:02] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.47738454
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:26:07] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.56696624
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:26:12] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.40547493
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:26:17] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.30470434
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:26:22] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.5945246
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:26:28] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.41133025
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:26:33] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.5812088
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:26:38] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.58705264
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:26:43] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.33307517
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:26:49] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.55711496
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:26:54] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: True Result: 0.58632004
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:26:59] "POST /predict HTTP/1.1" 200 -
+INFO:root:Prediction successful. Response: False Result: 0.3578039
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 01:27:04] "POST /predict HTTP/1.1" 200 -
+DEBUG:h5py._conv:Creating converter from 3 to 5
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+DEBUG:h5py._conv:Creating converter from 3 to 5
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 655-716-920
+INFO:werkzeug: * Detected change in 'D:\\Dev\\FYP\\attentiveness_detection_vr\\flask api\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:h5py._conv:Creating converter from 3 to 5
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 655-716-920
+INFO:werkzeug: * Detected change in 'D:\\Dev\\FYP\\attentiveness_detection_vr\\flask api\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 655-716-920
+ERROR:root:string indices must be integers, not 'str'
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 19:54:12] "POST /predict HTTP/1.1" 200 -
+ERROR:root:Expected 2D array, got 1D array instead:
+array=[20.].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 19:55:02] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Dev\\FYP\\attentiveness_detection_vr\\flask api\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 655-716-920
+ERROR:root:name 'arr' is not defined
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 19:56:14] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Dev\\FYP\\attentiveness_detection_vr\\flask api\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 655-716-920
+ERROR:root:Found array with dim 3. RandomForestRegressor expected <= 2.
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 19:56:29] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Dev\\FYP\\attentiveness_detection_vr\\flask api\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 655-716-920
+ERROR:root:invalid index to scalar variable.
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 19:56:41] "POST /predict HTTP/1.1" 200 -
+ERROR:root:invalid index to scalar variable.
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 19:56:55] "POST /predict HTTP/1.1" 200 -
+ERROR:root:invalid index to scalar variable.
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 19:56:56] "POST /predict HTTP/1.1" 200 -
+ERROR:root:invalid index to scalar variable.
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 19:56:58] "POST /predict HTTP/1.1" 200 -
+ERROR:root:invalid index to scalar variable.
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 19:56:59] "POST /predict HTTP/1.1" 200 -
+ERROR:root:invalid index to scalar variable.
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 19:57:05] "POST /predict HTTP/1.1" 200 -
+ERROR:root:invalid index to scalar variable.
+INFO:werkzeug:127.0.0.1 - - [12/Mar/2024 19:57:06] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Dev\\FYP\\attentiveness_detection_vr\\flask api\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:h5py._conv:Creating converter from 3 to 5
+DEBUG:h5py._conv:Creating converter from 3 to 5
+DEBUG:h5py._conv:Creating converter from 3 to 5
+DEBUG:h5py._conv:Creating converter from 3 to 5
+DEBUG:h5py._conv:Creating converter from 3 to 5
+DEBUG:h5py._conv:Creating converter from 3 to 5
+DEBUG:h5py._conv:Creating converter from 3 to 5
+DEBUG:h5py._conv:Creating converter from 3 to 5
+DEBUG:h5py._conv:Creating converter from 3 to 5
